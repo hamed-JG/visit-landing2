@@ -1,0 +1,62 @@
+@font-face {
+  font-family: nastaliq;
+  src: url(/fonts/IranNastaliq.ttf);
+}
+@font-face {
+  font-family: vazir;
+  src: url(/fonts/Vazir-Black.woff);
+}
+
+a {
+  font-weight: 500;
+  color: #fff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.5s ease-in;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  height: 100%;
+  background-color: #42b4e7;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  background-color: #bec2c5;
+  padding: 5px 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
